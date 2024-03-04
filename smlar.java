@@ -19,7 +19,8 @@ public class smlar {
         System.out.println("Min is: "+min);
         System.out.println("Max is: "+max);
        }
-       else if(n==2){
+       else if(n==2)
+       {
         min=a[0];
         max=a[0];
         if(a[1]>max){
@@ -31,7 +32,7 @@ public class smlar {
         }
         System.out.println("Min is: "+min);
         System.out.println("Max is: "+max);
-        }
+       }
         else{
             min=a[0];
             max=a[0];
