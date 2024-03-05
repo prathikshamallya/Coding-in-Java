@@ -11,9 +11,8 @@ public class reverseNumber {
         while(n!=0){
             rem=n%10;
             rev=rev*10+rem;
-            // System.out.print(rem);
             n=n/10;
         }
-        System.out.print(rem);
+        System.out.print(rev);
     }
 }
