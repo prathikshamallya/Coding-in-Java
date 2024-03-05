@@ -7,8 +7,8 @@ enum weekOfDays{
         day=d;
     }
 
+        //find if working day or not
     public String getValue(){
-        //System.out.println(day);
         if(day>=1&&day<=5){
 
             return "working Day";
@@ -20,18 +20,9 @@ enum weekOfDays{
 
 class work{
     public static void generatecode() {
-        // weekOfDays w;
-        // w=weekOfDays.monday;
-        
-        
-        // System.out.println(di+"is "+di.getValue());
         for(weekOfDays da:weekOfDays.values()){
              System.out.println(da);
-            
-
         }
-        
-
     }
 
     public static void main(String[] args) {
@@ -47,6 +38,5 @@ class work{
                 System.out.println(w.getValue());
              }
         }
-        // System.out.println(di+" is "+p.getValue());
     }
 }
